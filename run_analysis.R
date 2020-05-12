@@ -7,6 +7,7 @@
 #     - Clean and Prepare Data for Analysis
 #     - Carry out required analytical task
 #     - Create tidy dataset in a text file
+#     12 May 2020
 #------------------------------------------------------------------------------------------------------
 
 #load library plyr (assuming it has been already installed)
