@@ -1,4 +1,4 @@
-Getting and Cleaning Data - Course Project
+##Getting and Cleaning Data - Course Project
 
 File run_analysis.R performs the following, in order:
   1. Defines names for the final output and intermediate working files
