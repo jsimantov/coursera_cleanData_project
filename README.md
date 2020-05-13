@@ -1,4 +1,3 @@
-# CodeBook
 ## coursera_cleanData_project
 
 File run_analysis.R performs the following, in order:
