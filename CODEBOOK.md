@@ -13,25 +13,25 @@ The logical data structure is described in the Source Data section; initial raw-
 
 Data download, analysis and output were carried out using the script run_analysis.R, this repository; the list of functionalities in the script can be found in file README.md, together with additional background information on this project.
 
-##Source Data
+## Source Data
 
 Detailed description of the dataset is provided on site:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
-###Variables
+### Variables
 
 Subject numerical identifier, integer, range 1 to 30.
 
 Activity descriptor, string, 6 possible explicit values:
 
-  WALKING
-  WALKING_UPSTAIRS
-  WALKING_DOWNSTAIRS
-  SITTING
-  STANDING
-  LAYING
+ - WALKING
+ - WALKING_UPSTAIRS
+ - WALKING_DOWNSTAIRS
+ - SITTING
+ - STANDING
+ - LAYING
 
 Measurement variable Name and description list are included in files features.txt and features_info.txt of the raw data set; they are briefly summarized here.
 
@@ -47,7 +47,8 @@ Prior to analyzing, all measurements were normalized in range [-1,1] and are exp
 
 Three-dimensional signal Magnitudes were geometrically calculated.
 
-##Output Data
+## Output Data
+
 Raw data retrieval, analysis and formatting were created using the functionalities included in script run_analysis.R
 The formatting of the final data headers comprises the following actions:
 
@@ -55,76 +56,77 @@ The formatting of the final data headers comprises the following actions:
 - Removing special and regular character expressions from the Raw Data Headers
 - Adding Spaces and Dashes to create more readable header labels
 
-The final data labels are:
+The final data are labeled as follows:
 
-- The prefix 'TD' indicates time-domain values; the prefix 'FD' indicates frequency-domain values
-"Subject"
-"Activity"
-"TD Body Accelerometer - Mean X"                        
-"TD Body Accelerometer - Mean Y"                       
-"TD Body Accelerometer - Mean Z"                        
-"TD Body Accelerometer - StdDeviation X"               
-"TD Body Accelerometer - StdDeviation Y"
-"TD Body Accelerometer - StdDeviation Z"
-"TD Gravity Accelerometer - Mean X"
-"TD Gravity Accelerometer - Mean Y"
-"TD Gravity Accelerometer - Mean Z"
-"TD Gravity Accelerometer - StdDeviation X"            
-"TD Gravity Accelerometer - StdDeviation Y"
-"TD Gravity Accelerometer - StdDeviation Z"
-"TD Body Accelerometer Jerk- Mean X"
-"TD Body Accelerometer Jerk- Mean Y"
-"TD Body Accelerometer Jerk- Mean Z"
-"TD Body Accelerometer Jerk- StdDeviation X"
-"TD Body Accelerometer Jerk- StdDeviation Y"
-"TD Body Accelerometer Jerk- StdDeviation Z"
-"TD Body Gyroscope - Mean X"
-"TD Body Gyroscope - Mean Y"
-"TD Body Gyroscope - Mean Z"
-"TD Body Gyroscope - StdDeviation X"                   
-"TD Body Gyroscope - StdDeviation Y"
-"TD Body Gyroscope - StdDeviation Z"                   
-"TD Body Gyroscope Jerk- Mean X"
-"TD Body Gyroscope Jerk- Mean Y"                       
-"TD Body Gyroscope Jerk- Mean Z"
-"TD Body Gyroscope Jerk- StdDeviation X"               
-"TD Body Gyroscope Jerk- StdDeviation Y"
-"TD Body Gyroscope Jerk- StdDeviation Z"               
-"TD Body Accelerometer  Magnitude - Mean "
-"TD Body Accelerometer  Magnitude - StdDeviation "     
-"TD Gravity Accelerometer  Magnitude - Mean "
-"TD Gravity Accelerometer  Magnitude - StdDeviation "  
-"TD Body Accelerometer Jerk Magnitude - Mean "
-"TD Body Accelerometer Jerk Magnitude - StdDeviation " 
-"TD Body Gyroscope  Magnitude - Mean "
-"TD Body Gyroscope  Magnitude - StdDeviation "         
-"TD Body Gyroscope Jerk Magnitude - Mean "              
-"TD Body Gyroscope Jerk Magnitude - StdDeviation "     
-"FD Body Accelerometer - Mean X"
-"FD Body Accelerometer - Mean Y"                       
-"FD Body Accelerometer - Mean Z"
-"FD Body Accelerometer - StdDeviation X"               
-"FD Body Accelerometer - StdDeviation Y"
-"FD Body Accelerometer - StdDeviation Z"               
-"FD Body Accelerometer Jerk- Mean X"
-"FD Body Accelerometer Jerk- Mean Y"                   
-"FD Body Accelerometer Jerk- Mean Z"
-"FD Body Accelerometer Jerk- StdDeviation X"           
-"FD Body Accelerometer Jerk- StdDeviation Y"
-"FD Body Accelerometer Jerk- StdDeviation Z"           
-"FD Body Gyroscope - Mean X"
-"FD Body Gyroscope - Mean Y"                           
-"FD Body Gyroscope - Mean Z"
-"FD Body Gyroscope - StdDeviation X"                   
-"FD Body Gyroscope - StdDeviation Y"
-"FD Body Gyroscope - StdDeviation Z"                   
-"FD Body Accelerometer  Magnitude - Mean "
-"FD Body Accelerometer  Magnitude - StdDeviation "     
-"FD Body  Accelerometer Jerk Magnitude - Mean "
-"FD Body  Accelerometer Jerk Magnitude - StdDeviation "
-"FD Body  Gyroscope  Magnitude - Mean "
-"FD Body  Gyroscope  Magnitude - StdDeviation "        
-"FD Body  Gyroscope Jerk Magnitude - Mean "
-"FD Body  Gyroscope Jerk Magnitude - StdDeviation "    
+The prefix 'TD' indicates time-domain values; the prefix 'FD' indicates frequency-domain values
+
+ - "Subject"
+ - "Activity"
+ - "TD Body Accelerometer - Mean X"                        
+ - "TD Body Accelerometer - Mean Y"                       
+ - "TD Body Accelerometer - Mean Z"                        
+ - "TD Body Accelerometer - StdDeviation X"               
+ - "TD Body Accelerometer - StdDeviation Y"
+ - "TD Body Accelerometer - StdDeviation Z"
+ - "TD Gravity Accelerometer - Mean X"
+ - "TD Gravity Accelerometer - Mean Y"
+ - "TD Gravity Accelerometer - Mean Z"
+ - "TD Gravity Accelerometer - StdDeviation X"            
+ - "TD Gravity Accelerometer - StdDeviation Y"
+ - "TD Gravity Accelerometer - StdDeviation Z"
+ - "TD Body Accelerometer Jerk- Mean X"
+ - "TD Body Accelerometer Jerk- Mean Y"
+ - "TD Body Accelerometer Jerk- Mean Z"
+ - "TD Body Accelerometer Jerk- StdDeviation X"
+ - "TD Body Accelerometer Jerk- StdDeviation Y"
+ - "TD Body Accelerometer Jerk- StdDeviation Z"
+ - "TD Body Gyroscope - Mean X"
+ - "TD Body Gyroscope - Mean Y"
+ - "TD Body Gyroscope - Mean Z"
+ - "TD Body Gyroscope - StdDeviation X"                   
+ - "TD Body Gyroscope - StdDeviation Y"
+ - "TD Body Gyroscope - StdDeviation Z"                   
+ - "TD Body Gyroscope Jerk- Mean X"
+ - "TD Body Gyroscope Jerk- Mean Y"                       
+ - "TD Body Gyroscope Jerk- Mean Z"
+ - "TD Body Gyroscope Jerk- StdDeviation X"               
+ - "TD Body Gyroscope Jerk- StdDeviation Y"
+ - "TD Body Gyroscope Jerk- StdDeviation Z"               
+ - "TD Body Accelerometer  Magnitude - Mean "
+ - "TD Body Accelerometer  Magnitude - StdDeviation "     
+ - "TD Gravity Accelerometer  Magnitude - Mean "
+ - "TD Gravity Accelerometer  Magnitude - StdDeviation "  
+ - "TD Body Accelerometer Jerk Magnitude - Mean "
+ - "TD Body Accelerometer Jerk Magnitude - StdDeviation " 
+ - "TD Body Gyroscope  Magnitude - Mean "
+ - "TD Body Gyroscope  Magnitude - StdDeviation "         
+ - "TD Body Gyroscope Jerk Magnitude - Mean "              
+ - "TD Body Gyroscope Jerk Magnitude - StdDeviation "     
+ - "FD Body Accelerometer - Mean X"
+ - "FD Body Accelerometer - Mean Y"                       
+ - "FD Body Accelerometer - Mean Z"
+ - "FD Body Accelerometer - StdDeviation X"               
+ - "FD Body Accelerometer - StdDeviation Y"
+ - "FD Body Accelerometer - StdDeviation Z"               
+ - "FD Body Accelerometer Jerk- Mean X"
+ - "FD Body Accelerometer Jerk- Mean Y"                   
+ - "FD Body Accelerometer Jerk- Mean Z"
+ - "FD Body Accelerometer Jerk- StdDeviation X"           
+ - "FD Body Accelerometer Jerk- StdDeviation Y"
+ - "FD Body Accelerometer Jerk- StdDeviation Z"           
+ - "FD Body Gyroscope - Mean X"
+ - "FD Body Gyroscope - Mean Y"                           
+ - "FD Body Gyroscope - Mean Z"
+ - "FD Body Gyroscope - StdDeviation X"                   
+ - "FD Body Gyroscope - StdDeviation Y"
+ - "FD Body Gyroscope - StdDeviation Z"                   
+ - "FD Body Accelerometer  Magnitude - Mean "
+ - "FD Body Accelerometer  Magnitude - StdDeviation "     
+ - "FD Body  Accelerometer Jerk Magnitude - Mean "
+ - "FD Body  Accelerometer Jerk Magnitude - StdDeviation "
+ - "FD Body  Gyroscope  Magnitude - Mean "
+ - "FD Body  Gyroscope  Magnitude - StdDeviation "        
+ - "FD Body  Gyroscope Jerk Magnitude - Mean "
+ - "FD Body  Gyroscope Jerk Magnitude - StdDeviation "    
                                        
 > 
