@@ -1,4 +1,4 @@
-# Codebook
+# Codebook - Getting and Cleaning Data course
 
 ## Scope
 
