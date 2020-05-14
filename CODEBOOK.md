@@ -11,7 +11,7 @@ The aim of the project analysis is to present, for a set of unnamed subjects(per
 
 The logical data structure is described in the Source Data section; initial raw-data variables and data header transformations are listed in the Output Data section.
 
-Data download, analysis and output were carried out using the script run_analysis.R, this repository; the list of functionalities in the script can be found in file README.md, together with additional background information on this project.
+Data download, analysis and output were carried out using the script run_analysis.R, this repository; the list of functionalities in the script can be found in file README.md
 
 ## Source Data
 
