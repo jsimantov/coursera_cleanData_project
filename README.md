@@ -1,4 +1,4 @@
-##Getting and Cleaning Data - Course Project
+## coursera_cleanData_project
 
 File run_analysis.R performs the following, in order:
   1. Defines names for the final output and intermediate working files
@@ -10,5 +10,3 @@ File run_analysis.R performs the following, in order:
   7. Modifies the column names of the global dataset to make them more explicit and readable
   8. Calculates Mean and Standard Deviation values for each measurement Subject and Activity
   9. Produces an output file tidy_set.txt containing the required result.
-  
-  
