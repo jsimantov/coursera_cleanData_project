@@ -26,12 +26,12 @@ Subject numerical identifier, integer, range 1 to 30.
 
 Activity descriptor, string, 6 possible explicit values:
 
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+-WALKING
+-WALKING_UPSTAIRS
+-WALKING_DOWNSTAIRS
+-SITTING
+-STANDING
+-LAYING
 
 Measurement variable Name and description list are included in files features.txt and features_info.txt of the raw data set; they are briefly summarized here.
 
