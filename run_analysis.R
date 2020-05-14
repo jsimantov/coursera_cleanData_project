@@ -97,11 +97,11 @@ globalSetCols <- gsub("[\\(\\)-]", "", globalSetCols)
 # correct typo in original Data
 globalSetCols <- gsub("BodyBody", "Body ", globalSetCols)
 
-globalSetCols <- gsub("^f", "Frequency ", globalSetCols)
-globalSetCols <- gsub("^t", "Time ", globalSetCols)
-globalSetCols <- gsub("Acc", "Accelerometer ", globalSetCols)
-globalSetCols <- gsub("Gyro", "Gyroscope ", globalSetCols)
-globalSetCols <- gsub("Mag", "Magnitude ", globalSetCols)
+globalSetCols <- gsub("^f", "FD ", globalSetCols)
+globalSetCols <- gsub("^t", "TD ", globalSetCols)
+globalSetCols <- gsub("Acc", " Accelerometer ", globalSetCols)
+globalSetCols <- gsub("Gyro", " Gyroscope ", globalSetCols)
+globalSetCols <- gsub("Mag", " Magnitude ", globalSetCols)
 globalSetCols <- gsub("mean", "- Mean ", globalSetCols)
 globalSetCols <- gsub("std", "- StdDeviation ", globalSetCols)
 colnames(globalSet)<-globalSetCols
